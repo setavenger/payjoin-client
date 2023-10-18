@@ -1,4 +1,5 @@
 /// <reference types="node" />
+/// <reference types="node" />
 import { Psbt } from 'bitcoinjs-lib';
 import { Bip32Derivation, PsbtInput } from 'bip174/src/lib/interfaces';
 import { PayjoinClientOptionalParameters } from './client';

@@ -1,1 +1,3 @@
+import './polyfill'
+
 module.exports = {};

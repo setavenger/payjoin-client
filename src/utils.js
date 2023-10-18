@@ -22,10 +22,7 @@ var ScriptPubKeyType;
   /// Use this when you worry that your users do not support Bech address format.
   /// </summary>
   ScriptPubKeyType[(ScriptPubKeyType['SegwitP2SH'] = 3)] = 'SegwitP2SH';
-})(
-  (ScriptPubKeyType =
-    exports.ScriptPubKeyType || (exports.ScriptPubKeyType = {})),
-);
+})(ScriptPubKeyType || (exports.ScriptPubKeyType = ScriptPubKeyType = {}));
 function getFee(feeRate, size) {
   return feeRate * size;
 }

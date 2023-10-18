@@ -29,7 +29,11 @@
     "src"
   ],
   "dependencies": {
-    "bitcoinjs-lib": "^5.2.0"
+    "bip32": "^4.0.0",
+    "bitcoinjs-lib": "6.1.5",
+    "nostr-tools": "^1.17.0",
+    "tiny-secp256k1": "^2.2.3",
+    "websocket-polyfill": "^0.0.3"
   },
   "devDependencies": {
     "@types/isomorphic-fetch": "0.0.35",
@@ -43,7 +47,7 @@
     "regtest-client": "0.2.0",
     "ts-jest": "25.3.1",
     "tslint": "6.1.1",
-    "typescript": "3.9.7"
+    "typescript": "5.2.2"
   },
   "keywords": [
     "bitcoinjs",
